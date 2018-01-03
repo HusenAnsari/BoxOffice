@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/topMovie_Poster"
+                android:layout_width="140dp"
+                android:layout_height="170dp"
+                android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/topMovie_Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Superman"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_marginTop="3dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:ems="8"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rating : "/>
+
+            <TextView
+                android:id="@+id/topMovie_Rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8.0"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
